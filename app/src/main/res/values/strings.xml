@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Custom View</string>
+    <string name="custom_view_label">These are custom views</string>
 </resources>
