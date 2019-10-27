@@ -7,7 +7,7 @@ Below screenshot you will see sunrise and sunset time using custom view.
 
 You can easily design this UI in traditional way. All `TextView`, `ImageView` in the `xml` file of `Activity`. How many UI component do you need to design this UI? You need to use four components for each item. So to design above UI there will be 8 components (TextView, ImageView) to design sunrise and sunset view. What if you need 5 view like sunrise/sunset view? You have to use 5*4=20 components! And the `xml` code will be very messy.
 
-You can avoid this code redundancy, you can put this view in a seperate `xml` file like below:
+You can avoid this code redundancy, you can put this view in a seperate xml (`layout/custom_view.xml`) file like below:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
